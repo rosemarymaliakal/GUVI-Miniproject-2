@@ -21,8 +21,8 @@ public class TC_006_ContactDeleteTest extends ProjectSpecificationMethods {
 	
 	public void ContactDeletionTest() {
 		HomePage obj = new HomePage(driver);
-		obj.enterEmail("roseqwerty@gmail.com")
-		.enterPwd("qwerty12")
+		obj.enterEmail("roseqwerty12345@gmail.com")
+		.enterPwd("qwerty12345")
 		.clickLogin();
 		
 		ContactPage obj1 = new ContactPage(driver);

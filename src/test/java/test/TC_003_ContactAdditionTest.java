@@ -22,8 +22,8 @@ public class TC_003_ContactAdditionTest extends ProjectSpecificationMethods {
 	
 	public void contactTest() {
 		HomePage obj = new HomePage(driver);
-		obj.enterEmail("roseqwerty1@gmail.com")
-		.enterPwd("qwerty123")
+		obj.enterEmail("roseqwerty12345@gmail.com")
+		.enterPwd("qwerty12345")
 		.clickLogin();
 		
 		ContactPage obj1 = new ContactPage(driver);

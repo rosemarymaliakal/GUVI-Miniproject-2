@@ -56,12 +56,12 @@ public class SignupPage extends ProjectSpecificationMethods {
 	}
 	
 	public SignupPage entermail() {
-		emailId.sendKeys("roseqwerty1@gmail.com");
+		emailId.sendKeys("roseqwerty12345@gmail.com");
 		return this;
 	}
 	
 	public SignupPage enterPassword() {
-		pwd.sendKeys("qwerty123");
+		pwd.sendKeys("qwerty12345");
 		return this;
 	}
 	
